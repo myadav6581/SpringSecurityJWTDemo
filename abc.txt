@@ -1,0 +1,12 @@
+git config --global user.name xxxxxx
+ git config --global user.email xxxxxx
+ touch .gitignore
+ git init
+ git add .
+ git commit -m "Initial Commit"
+ git staus
+ git remote add origin git@github.com:xxxxxx/SpringSecurityJWTDemo.git(ssh path fromgit repo)
+ --git push -u origin master
+ --git push -u git@github.com:myadav6581/SpringSecurityJWTDemo.git
+ #  if not able to add code in repo and ask for access for git then set ssh key and then again add to remote  
+    ssh -keygen -t rsa -b 4096  -C "xxxxxyahoo.com"
